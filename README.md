@@ -54,52 +54,52 @@ This project uses **2024 monthly airline performance data**, combined into one l
 
 ### Key Columns Used
 #### Time Features
-Year
-Quarter
-Month
-DayofMonth
-DayOfWeek
-FlightDate
-CRSDepTime
-CRSArrTime
+- Year
+- Quarter
+- Month
+- DayofMonth
+- DayOfWeek
+- FlightDate
+- CRSDepTime
+- CRSArrTime
 #### Airline Features
-Reporting_Airline
-DOT_ID_Reporting_Airline
+- Reporting_Airline
+- DOT_ID_Reporting_Airline
 #### Airport Features
-Origin
-OriginCityName
-Dest
-DestCityName
+- Origin
+- OriginCityName
+- Dest
+- DestCityName
 #### Delay Features
-DepDelayMinutes
-ArrDelayMinutes
-CarrierDelay
-WeatherDelay
-NASDelay
-SecurityDelay
-LateAircraftDelay
+- DepDelayMinutes
+- ArrDelayMinutes
+- CarrierDelay
+- WeatherDelay
+- NASDelay
+- SecurityDelay
+- LateAircraftDelay
 #### Flight Status
-Cancelled
-Diverted
+- Cancelled
+- Diverted
 
 ---
 
 # Technologies Used
 ## Big Data Tools
-Apache Spark
-PySpark
-Spark SQL
+- Apache Spark
+- PySpark
+- Spark SQL
 ## Programming Language
-Python 3
+- Python 3
 ## Libraries
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Scikit-learn
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
 ## Development Platform
-Google Colab
-Jupyter Notebook
+- Google Colab
+- Jupyter Notebook
 
 ---
 

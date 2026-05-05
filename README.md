@@ -4,7 +4,7 @@
 
 This project focuses on analyzing large-scale U.S. domestic airline on-time performance data using Big Data technologies. The goal is to identify meaningful patterns in flight delays, compare airline operational performance, evaluate airport congestion, analyze seasonal and hourly delay trends, and explore the main causes of delays.
 
-The project uses **Apache Spark / PySpark**, **Spark SQL**, and **Python data visualization tools** to process and analyze millions of airline records efficiently.
+The project uses **Apache Spark / PySpark**, **Spark SQL**, **Spark ML**, and **Python data visualization tools** to process and analyze millions of airline records efficiently.
 
 This repository contains the complete data pipeline including:
 
@@ -45,6 +45,24 @@ https://www.transtats.bts.gov/
 ## Data Used in This Project
 
 This project uses **2024 monthly airline performance data**, combined into one large dataset.
+### Download Link
+
+📎 https://drive.google.com/file/d/1iXESKbrhonsKsb8BJkz7R4o4HPaEYRPj/view?usp=sharing  
+
+(File: `BTS_Data_2024.zip`)
+### Setup Instructions
+
+1. Go to **Google Drive**, and create a new folder named `BigDataProject`  
+
+2. Download the dataset from the link above  
+
+3. Upload the ZIP file (`BTS_Data_2024.zip`) into your Google Drive folder  
+
+4. Open **Google Colab**, and mount your Google Drive:
+
+```python
+from google.colab import drive
+drive.mount('/content/drive')
 
 ### Approximate Size
 
@@ -89,44 +107,15 @@ This project uses **2024 monthly airline performance data**, combined into one l
 - Apache Spark
 - PySpark
 - Spark SQL
+- Spark ML
 ## Programming Language
 - Python 3
 ## Libraries
 - Pandas
 - NumPy
 - Matplotlib
-- Seaborn
-- Scikit-learn
 ## Development Platform
 - Google Colab
 - Jupyter Notebook
 
 ---
-
-# Repository Structure
-
-```text
-Big-Data-Airline-Project/
-│
-├── data/
-│   ├── raw_data/
-│   ├── cleaned_data/
-│   └── parquet/
-│
-├── notebooks/
-│   ├── 01_data_cleaning.ipynb
-│   ├── 02_sql_analysis.ipynb
-│   ├── 03_visualization.ipynb
-│   └── 04_prediction_model.ipynb
-│
-├── scripts/
-│   ├── preprocessing.py
-│   ├── feature_engineering.py
-│   └── helper_functions.py
-│
-├── outputs/
-│   ├── figures/
-│   ├── tables/
-│   └── reports/
-│
-└── README.md
